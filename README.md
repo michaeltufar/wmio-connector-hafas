@@ -1,13 +1,17 @@
 # wmio-connector-hafas  
   
+  
+  
 
 ## Overview   
+
+
 
 
 This sample demonstrates how to build a custom connector to an external (REST) API for further usage in webmethods.io Integration.  
 
 
-
+![wmio-connector-hafas](https://github.com/michaeltufar/wmio-connector-hafas/blob/master/resources/wmio-connector-hafas-standalone-workflow.png "Sample Workflow")
 
 REST API used for this purpose is the HAFAS ReST API. 
 
@@ -70,6 +74,9 @@ getStationboard provides a search for the next departures of a given stop. Sched
 ### Search for nearest public transport stop, for a given loction of a "Connected Car"
 
 This connector could also easily be used for addtional processing of the "Connected Car" sample connector found here: https://github.com/SoftwareAG/wmio-connector-connectedcar
+
+
+![wmio-connector-hafas](https://github.com/michaeltufar/wmio-connector-hafas/blob/master/resources/wmio-connector-hafas-combined-workflow.png "Sample Workflow")
 
 1. Follow all steps in "Connected Car" README to get this connector deployed. 
 2. Create a new workflow with a first action "getVehicles", no input needed.
